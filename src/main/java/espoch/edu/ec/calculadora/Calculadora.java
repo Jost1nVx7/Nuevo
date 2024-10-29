@@ -12,16 +12,16 @@ public class Calculadora {
 
     public static void main(String[] args) {
         
-        Scanner Yape= new Scanner(System.in);
+        Scanner A= new Scanner(System.in);
         System.out.println("ingresa el primer numero:");
-        int num1=Yape.nextInt();
+        int num1=A.nextInt();
         
         System.out.println("ingresa el segundo numero:");
-        int num2=Yape.nextInt();
+        int num2=A.nextInt();
         
-        int suma=num1+num2;
+        int suma=num1-num2;
         
-        System.out.println("la suma es "+suma);
+        System.out.println("la RESTA es: "+suma);
         
 
         
